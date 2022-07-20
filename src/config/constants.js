@@ -1,0 +1,182 @@
+export const Genres = [
+  {
+    id: 28,
+    name: 'Action',
+  },
+  {
+    id: 12,
+    name: 'Adventure',
+  },
+  {
+    id: 16,
+    name: 'Animation',
+  },
+  {
+    id: 35,
+    name: 'Comedy',
+  },
+  {
+    id: 80,
+    name: 'Crime',
+  },
+  {
+    id: 99,
+    name: 'Documentary',
+  },
+  {
+    id: 18,
+    name: 'Drama',
+  },
+  {
+    id: 10751,
+    name: 'Family',
+  },
+  {
+    id: 14,
+    name: 'Fantasy',
+  },
+  {
+    id: 36,
+    name: 'History',
+  },
+  {
+    id: 27,
+    name: 'Horror',
+  },
+  {
+    id: 10402,
+    name: 'Music',
+  },
+  {
+    id: 9648,
+    name: 'Mystery',
+  },
+  {
+    id: 10749,
+    name: 'Romance',
+  },
+  {
+    id: 878,
+    name: 'Science Fiction',
+  },
+  {
+    id: 10770,
+    name: 'TV Movie',
+  },
+  {
+    id: 53,
+    name: 'Thriller',
+  },
+  {
+    id: 10752,
+    name: 'War',
+  },
+  {
+    id: 37,
+    name: 'Western',
+  },
+];
+// export const MovieDetail = [
+//   {
+//     adult: false,
+//     backdrop_path: '/kXfqcdQKsToO0OUXHcrrNCHDBzO.jpg',
+//     genre_ids: [18, 80],
+//     id: 278,
+//     original_language: 'en',
+//     original_title: 'The Shawshank Redemption',
+//     overview:
+//       'Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.',
+//     popularity: 73.564,
+//     poster_path: '/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg',
+//     release_date: '1994-09-23',
+//     title: 'The Shawshank Redemption',
+//     video: false,
+//     vote_average: 8.7,
+//     vote_count: 21804,
+//   },
+//   {
+//     adult: false,
+//     backdrop_path: '/rSPw7tgCH9c6NqICZef4kZjFOQ5.jpg',
+//     genre_ids: [18, 80],
+//     id: 238,
+//     original_language: 'en',
+//     original_title: 'The Godfather',
+//     overview:
+//       'Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.',
+//     popularity: 95.588,
+//     poster_path: '/3bhkrj58Vtu7enYsRolD1fZdja1.jpg',
+//     release_date: '1972-03-14',
+//     title: 'The Godfather',
+//     video: false,
+//     vote_average: 8.7,
+//     vote_count: 16233,
+//   },
+//   {
+//     adult: false,
+//     backdrop_path: '/loRmRzQXZeqG78TqZuyvSlEQfZb.jpg',
+//     genre_ids: [18, 36, 10752],
+//     id: 424,
+//     original_language: 'en',
+//     original_title: "Schindler's List",
+//     overview:
+//       'The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.',
+//     popularity: 41.928,
+//     poster_path: '/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg',
+//     release_date: '1993-11-30',
+//     title: "Schindler's List",
+//     video: false,
+//     vote_average: 8.6,
+//     vote_count: 12936,
+//   },
+//   {
+//     adult: false,
+//     backdrop_path: '/poec6RqOKY9iSiIUmfyfPfiLtvB.jpg',
+//     genre_ids: [18, 80],
+//     id: 240,
+//     original_language: 'en',
+//     original_title: 'The Godfather: Part II',
+//     overview:
+//       'In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.',
+//     popularity: 54.372,
+//     poster_path: '/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg',
+//     release_date: '1974-12-20',
+//     title: 'The Godfather: Part II',
+//     video: false,
+//     vote_average: 8.6,
+//     vote_count: 9784,
+//   },
+//   {
+//     adult: false,
+//     backdrop_path: '/bxSBOAD8AuMHYMdW3jso9npAkgt.jpg',
+//     genre_ids: [10751, 18],
+//     id: 667257,
+//     original_language: 'es',
+//     original_title: 'Cosas imposibles',
+//     overview:
+//       'A widow who is tormented by the memory of her abusive husband befriends a young man.',
+//     popularity: 15.86,
+//     poster_path: '/t2Ew8NZ8Ci2kqmoecZUNQUFDJnQ.jpg',
+//     release_date: '2021-06-17',
+//     title: 'Impossible Things',
+//     video: false,
+//     vote_average: 8.6,
+//     vote_count: 255,
+//   },
+//   {
+//     adult: false,
+//     backdrop_path: '/3RMLbSEXOn1CzLoNT7xFeLfdxhq.jpg',
+//     genre_ids: [10749, 16],
+//     id: 372754,
+//     original_language: 'ja',
+//     original_title: '同級生',
+//     overview:
+//       'Rihito Sajo, an honor student with a perfect score on the entrance exam and Hikaru Kusakabe, in a band and popular among girls, would have never crossed paths. Until one day they started talking at the practice for their school’s upcoming chorus festival. After school, the two meet regularly, as Hikaru helps Rihito to improve his singing skills. While they listen to each other’s voice and harmonize, their hearts start to beat together.',
+//     popularity: 15.919,
+//     poster_path: '/cIfRCA5wEvj9tApca4UDUagQEiM.jpg',
+//     release_date: '2016-02-20',
+//     title: 'Dou kyu sei – Classmates',
+//     video: false,
+//     vote_average: 8.5,
+//     vote_count: 237,
+//   },
+// ];
